@@ -1,0 +1,66 @@
+
+#wrapper {
+	height: 100%;
+	margin: 0% 35%;
+	font-size: 60;
+	font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+}
+
+#branding {
+	padding-top: 50%;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+
+#search {
+	text-align: center;
+}
+
+#wikiText {
+	color: #a9b1bc;
+	font-weight: 100;
+	margin-right: -8px;
+}
+
+#searchText {
+	color: #3791B9;
+}
+
+input {
+	width: 250px;
+	padding: 5px 5px;
+	margin-top: 2px;
+	margin-bottom:15px;
+}
+
+.listItem {
+	color: #00aaff;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 20px 10px;
+	border-radius: 2px;
+}
+
+.listItem:hover {
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+.listItem p {
+	font-weight: 400;
+	color: #898b8f;
+	margin-bottom: 0px;
+	margin-top: 2px;
+	font-size: 15px;
+	letter-spacing: -0.05em;
+}
+
+.no-results {
+	font-size: 18px;
+	color: red;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
